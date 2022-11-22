@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+}
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+#eyes,
+#eyes img {
+  position: absolute;
+}
+#logo {
+  position: absolute;
+  width: 400px;
+  top: 0;
+  left: 0;
+}
